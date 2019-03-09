@@ -1,0 +1,35 @@
+Hello,
+This is Sandeep Singh here,
+here are the commands which i used in MyFirstAssignment
+
+1)pwd - the command pwd is used to print the 'present working directory'. pwd is equivalent to executing cd on a Windows console host terminal.
+
+2)mkdir MYFIRSTASSIGNMENT- the command mkdir "directory name" is used to make a New Directory.
+
+3)cd MYFIRSTASSIGNMENT-The cd command, also known as chdir (change directory), is a command-line OS shell command used to change the current working directory in operating systems.
+
+4)git clone (mygithub url) for example:-git clone https://github.com/sandeepsingh13/MAD314-CV-1896206 - git clone is a Git command line which is used to target an existing repository and create a clone, or copy of the target repository. we can also say git clone is used for Cloning a local or remote repository.
+
+5)ls- the command ls is used to list all the computer file.
+
+6)cd MAD314-CV-1896206 - i used this command to enter in my repositories.
+
+7)git pull https://github.com/richbighouse/mad-314-cv-assignment :-it used to Fetch and merge changes on the remote server to your working directory.
+
+8) git add -A-it used to add one or more files to staging (index).
+
+9)git status-List the files you've changed and those you still need to add or commit.
+
+10)git commit -m "Report created successfully" -Commit changes to head (but not yet to the remote repository)
+
+NOTE:sometime git is not connected to github proper, at that time we can use this command where it configure our user email and help us to connect with git Hub.the command is written below:
+
+git config --global user.name "sandeepsingh13" -Configure the author name and email address to be used with your commits.
+
+11) git push -Send changes to the master branch of your remote repository.
+
+NOTE:as i already said if gitbash is not connected to github properly we has to enter our user name and password, so we can easily push the changes to the master branch of your remote directory. the command is given below:
+
+ git config --global push.default simple THEN again do git push.
+
+
